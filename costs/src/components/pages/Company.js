@@ -1,6 +1,6 @@
 function Company() {
     return ( 
-        <div>Company</div>
+        <div><h1>Eu sou o componente Company</h1></div>
      );
 }
 
