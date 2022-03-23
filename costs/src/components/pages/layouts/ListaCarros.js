@@ -10,7 +10,7 @@ state={
 
 
 componentDidMount() {
-    axios.get('https://apireact.leonardomarqu15.repl.co/')
+    axios.get('http://localhost:5000/Menu-Pratos')
     .then(resp =>{
         this.setState({carros:resp.data})
         
@@ -23,7 +23,13 @@ componentDidMount() {
         return(
             <div>
             {this.state.carros.map(carro =>(
-                <div key={carro.id}>{carro.id} - {carro.marca} - {carro.Modelo}</div>
+                <ul key={carro.id}>
+                    
+                    <li><h5>pedido:{carro.id} - Nome do prato:</h5></li>
+                    <li>{carro.name}</li>
+                    
+                    
+                    </ul>
             ))}
             </div>
         )

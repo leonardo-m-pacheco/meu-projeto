@@ -35,6 +35,44 @@
             "id":4,
             "name": "teste4"
         }
+    ],
+    "Menu-Pratos": [
+        {
+        "id": "2",
+        "name": "Macarrão com camarão internacional "
+        },
+        {
+        "id": "3",
+        "name": " Peixe nordestino assado"
+        },
+        {
+        "id": "4",
+        "name": "Picanha gaúcha à moda da casa"
+        },
+        {
+        "id": "5",
+        "name": "Baião de dois à mineira"
+        },
+        {
+        "id": "6",
+        "name": " Farofa de banana da terra"
+        },
+        {
+        "id": "7",
+        "name": "Carne de sol do Cerrado"
+        },
+        {
+        "id": "8",
+        "name": "Tutu à mineira"
+        },
+        {
+        "id": "9",
+        "name": "Galinhada com pequi"
+        },
+        {
+        "id": "10",
+        "name": "Bife acebolado no arroz grego"
+        }
     ]
    
 }
